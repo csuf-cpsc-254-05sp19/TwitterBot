@@ -1,0 +1,11 @@
+1. Teammate(s): Nathan Yee
+
+2. Our project idea is to create a twitter bot that will post an image once a day at a specific time. 
+
+3. The goal for our project is to learn about the open source Twitter APIs in creating a twitter bot that is able to post on its own
+
+4. We are planning on using Python as our main coding language when developing the bot. We will then make use of the twitter API's as our open source. Lastly, for deployment of our bot, we will utilize Heroku to allow it to run on a server.
+
+5. Python will be used to create the functions and specific actions of our twitter bot. To gain access to the Twitter API's, we would have to create an application on the Twitter Developer website. Once that is done, we will use the Tweepy API with pip in developing our bot. Once we successfully finish creating our bot, we will put our code on Heroku so it can continue to run and post on twitter
+
+6. We are planning on creating our own functions and actions for the bot with python while using API's as our open source requirement
