@@ -1,4 +1,4 @@
-1. Teammate(s): Nathan Yee
+1. Teammate(s): Brittany Kraemer, Nathan Yee
 
 2. Our project idea is to create a twitter bot that will post an image once a day at a specific time. 
 
