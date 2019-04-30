@@ -1,10 +1,10 @@
 CS254 TWITTER BOT
 
-#About
+#About:
 This project uses the Twitter APIs to tweet through a Twitter bot account.
 The bot will post an image once every morning at 9am.
 
-#Installation
+#Installation:
 1. Create Twitter Developer account on 'https://developer.twitter.com/'
 2. Create an application through the Developer account to access the API keys
 3. Use command 'pip install Pillow' in the terminal to work with the Python Image Library
@@ -12,10 +12,10 @@ The bot will post an image once every morning at 9am.
 5. Use command 'pip install schedule' in the terminal to use schedule for Python
 6. The logic for scheduling tweets is done in Python (twitterbot.py)
 
-#Contributors
+#Contributors:
 Nathan Yee
 Brittany Kraemer
 
-#License
+#License:
 MIT - 'https://opensource.org/licenses/MIT'
 
