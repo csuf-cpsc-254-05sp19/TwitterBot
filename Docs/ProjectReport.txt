@@ -1,0 +1,3 @@
+FINAL SUMMARY
+
+The initial goal of the project was to develop a working Twitter bot that will be able to post tweets on its own. We went about this by obtaining access to use the Twitter API keys specifically for the bot. We then utilized the Tweepy python library to work with the APIs that we have. Tweepy allowed us to post tweets with images on regular intervals. When scheduling when we wanted tweets to be posted, we also utilized the Schedule python library to achieve this. Lastly, once we have created our finished project, we put it onto Heroku to allow it to run on its own server. In conlusion, it can be said that we have achieved our intial goal of our project in developing a fully-functioning Twitter bot. 
