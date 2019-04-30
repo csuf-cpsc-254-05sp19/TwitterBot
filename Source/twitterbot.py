@@ -7,10 +7,10 @@ print("This is a twitter bot by Brittany Kraemer and Nathan Yee")
 ##################################################################################
 # account keys
 
-CONSUMER_KEY = 'IlZxyXCp00qJdejPPCwFLLrDH'
-CONSUMER_SECRET = 'Rtcy2SMqhnTLHdenPxO6MruHyppQ8HpDiqk1XJRPBRR6BhLajg'
-ACCESS_KEY = '1116377589545701376-4Eua8JN4olk5f8zpSMs3hUUgbt6H31'
-ACCESS_SECRET = '4tc2TcxavgWUEFpMPnEFjmjpyW8xDcEVj2hqFwsU1l4yA'
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+ACCESS_KEY = ''
+ACCESS_SECRET = ''
 
 # OAuth process, using using the keys and token
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
@@ -94,7 +94,7 @@ schedule.every().sunday.at("09:00").do(sundayTweet)
 
 schedule.every().monday.at("09:00").do(mondayTweet)
 
-schedule.every().tuesday.at("09:47").do(tuesdayTweet)
+schedule.every().tuesday.at("09:00").do(tuesdayTweet)
 
 schedule.every().wednesday.at("09:00").do(wednesdayTweet)
 
