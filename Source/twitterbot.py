@@ -25,31 +25,31 @@ api = tweepy.API(auth)
 # images and status'
 
 #MONDAY 
-imgMonday = "/pics/monday.JPG"
+imgMonday = "monday.jpg"
 statusMonday = "Good Morning, happy Monday."
 
 #TUESDAY
-imgTuesday = "/pics/tuesday.JPG"
+imgTuesday = "tuesday.jpg"
 statusTuesday = "Good Morning, happy Tuesday." 
 
 #WEDNESDAY
-imgWednesday = "/pics/wednesday.png" 
+imgWednesday = "wednesday.png" 
 statusWednesday = "Good Morning, happy Wednesday" 
 
 #THURSDAY
-imgThursday = "/pics/thursday.JPG" 
+imgThursday = "thursday.jpg"
 statusThursday = "Good Morning, happy Thursday" 
 
 #FRIDAY
-imgFriday = "/pics/friday.JPG" 
+imgFriday = "friday.jpg" 
 statusFriday = "Good Morning, happy Friday"
 
 #SATURDAY 
-imgSaturday = "/pics/Saturday.jpg"
-statusFriday = "Good Morning, happy Saturday" 
+imgSaturday = "saturday.jpg"
+statusSaturday = "Good Morning, happy Saturday" 
 
 #SUNDAY
-imgSunday = "/pics/sunday.JPG" 
+imgSunday = "sunday.jpg" 
 statusSunday = "Good Morning, happy Sunday"
 
 
@@ -69,7 +69,7 @@ def tuesdayTweet():
 	api.update_with_media(imgTuesday, statusTuesday)
 	print("Tweet has been posted")
 
-def weddayTweet():
+def wednesdayTweet():
 	api.update_with_media(imgWednesday, statusWednesday)
 	print("Tweet has been posted")
 
@@ -90,19 +90,19 @@ def saturdayTweet():
 ##################################################################################
 # Test tweet using schedule
 
-schedule.every().sunday.at("9:00").do(thursdayTweet)
+schedule.every().sunday.at("09:00").do(sundayTweet)
 
-schedule.every().monday.at("9:00").do(thursdayTweet)
+schedule.every().monday.at("09:00").do(mondayTweet)
 
-schedule.every().tuesday.at("9:00").do(thursdayTweet)
+schedule.every().tuesday.at("09:47").do(tuesdayTweet)
 
-schedule.every().wednesday.at("9:00").do(thursdayTweet)
+schedule.every().wednesday.at("09:00").do(wednesdayTweet)
 
-schedule.every().thursday.at("9:00").do(thursdayTweet)
+schedule.every().thursday.at("09:00").do(thursdayTweet)
 
-schedule.every().friday.at("9:00").do(thursdayTweet)
+schedule.every().friday.at("09:00").do(fridayTweet)
 
-schedule.every().saturday.at("9:00").do(thursdayTweet)
+schedule.every().saturday.at("09:00").do(saturdayTweet)
 
 
 
